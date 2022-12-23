@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProviderRegister">
+
+    <EditText
+        android:id="@+id/textProviderRegisterProfession"
+        android:layout_width="0dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Profession"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textProviderRegisterDiploma" />
+
+    <EditText
+        android:id="@+id/textProviderRegisterName"
+        android:layout_width="0dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textProviderRegisterDiploma"
+        android:layout_width="0dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Diploma No"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textProviderRegisterName" />
+
+    <EditText
+        android:id="@+id/textProviderRegisterPassword"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textProviderRegisterProfession" />
+
+    <Button
+        android:id="@+id/btnProviderRegister"
+        android:layout_width="0dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="8dp"
+        android:text="REGISTER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPinLocation" />
+
+    <Button
+        android:id="@+id/btnPinLocation"
+        android:layout_width="0dp"
+        android:layout_height="71dp"
+        android:text="PIN YOUR LOCATION"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textProviderRegisterPassword" />
+
+    <Button
+        android:id="@+id/btnBackProviderRegister"
+        android:layout_width="337dp"
+        android:layout_height="73dp"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnProviderRegister"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

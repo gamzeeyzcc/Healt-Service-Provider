@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_messages">
+
+    <fragment
+        android:id="@+id/nav_messages"
+        android:name="com.example.healthserviceprovider.ui.messages.MessagesFragment"
+        android:label="@string/menu_messages"
+        tools:layout="@layout/fragment_messages" />
+
+    <fragment
+        android:id="@+id/nav_appointments"
+        android:name="com.example.healthserviceprovider.ui.appointment.AppointmentsFragment"
+        android:label="@string/menu_appointments"
+        tools:layout="@layout/fragment_appointments" />
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.healthserviceprovider.ui.locations.LocationFragment"
+        android:label="@string/menu_location"
+        tools:layout="@layout/fragment_location" />
+</navigation>

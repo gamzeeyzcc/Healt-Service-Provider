@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Health Service Provider</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_pin_location">Pin Your Location</string>
+    <string name="title_activity_patient">Patient</string>
+    <string name="title_activity_provider">Provider</string>
+    <string name="navigation_drawer_open">Open Navigateion</string>
+    <string name="navigation_drawer_close">Close Navigation</string>
+    <string name="nav_header_title">Health Service Providing System</string>
+    <string name="nav_header_subtitle">hsps@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_messages">Messages</string>
+    <string name="menu_appointments">Appointments</string>
+    <string name="menu_location">Location</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
